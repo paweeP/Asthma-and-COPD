@@ -1,0 +1,44 @@
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .noasthe-body, .asthe-body, .hardasthe-body {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .noasthe-body, .asthe-body, .hardasthe-body {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .noasthe-body, .asthe-body, .hardasthe-body {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 600px) {
+  .popup {
+    width: 90%;
+  }
+}
+
+@media (min-width: 600px) {
+  .popup {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .popup {
+    width: 40%;
+  }
+}
+
